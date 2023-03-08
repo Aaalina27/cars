@@ -1,0 +1,105 @@
+body {
+    background-image: url(island.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 80px;
+    /*чтобы у текста слева и справа появились отступы*/
+    background-attachment: fixed;
+    /*чтобы картинка не моталась*/
+    color: darkslategrey;
+
+
+}
+div{
+    width: 600px;
+    height: 1200px;
+    background-color: rgba(213, 210, 210, 0.7);
+    /*text-shadow: 1px 1px 0 black;*/
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+    position: relative;
+    vertical-align: top;
+
+
+}
+
+p{
+    margin: 10px;
+    font-size: 15px;
+}
+/*div{*/
+/*    background-color: rgba(213, 210, 210, 0.7);*/
+/*    !*text-shadow: 1px 1px 0 black;*!*/
+/*    text-align: justify;*/
+/*    padding: 10px;*/
+/*}*/
+#table{background-color: rgba(107, 142, 35, 0.7);
+    text-align: justify;
+    width: 300px;
+    float: left;
+    color: whitesmoke;
+    margin: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+td{
+    border: 1px solid white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+nav{
+    background-color: rgba(107, 142, 35, 0.7);
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+
+}
+.lf {
+    float: left;
+    width: 200px;
+}
+
+#bmw{
+    width: 50px;
+    height: 30px;
+}
+footer{
+    text-align: justify;
+}
+img{
+    margin: 10px;
+}
+.lex{
+    text-align: center
+}
+.le{
+    float: right;
+    width: 300px;
+}
+#lex{
+    width: 50px;
+    height: 30px;
+}
+footer{
+    text-align: center;
+}
+.pr{
+    float: right;
+    width: 300px;
+}
+#toy{
+    width: 50px;
+    height: 50px;
+}
+.ln{
+    float: right;
+    width: 300px;
+}
+#lan{
+    width: 50px;
+    height: 50px;
+}
